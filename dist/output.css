@@ -526,25 +526,12 @@ video {
   font-family: Playfair Display, serif;
 }
 
-.font-poppins {
-  font-family: Poppins, sans-serif;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .text-primaryColor {
   --tw-text-opacity: 1;
   color: rgb(112 194 201 / var(--tw-text-opacity));
-}
-
-.text-thirdColor {
-  --tw-text-opacity: 1;
-  color: rgb(52 94 133 / var(--tw-text-opacity));
 }
