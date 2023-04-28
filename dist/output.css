@@ -522,12 +522,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-poppins {
-  font-family: Poppins, sans-serif;
-}
-
 .font-playfair {
   font-family: Playfair Display, serif;
+}
+
+.font-poppins {
+  font-family: Poppins, sans-serif;
 }
 
 .text-6xl {
@@ -544,21 +544,7 @@ video {
   color: rgb(112 194 201 / var(--tw-text-opacity));
 }
 
-.text-secondaryColor {
-  --tw-text-opacity: 1;
-  color: rgb(172 223 226 / var(--tw-text-opacity));
-}
-
 .text-thirdColor {
   --tw-text-opacity: 1;
   color: rgb(52 94 133 / var(--tw-text-opacity));
-}
-
-.text-fourthColor {
-  --tw-text-opacity: 1;
-  color: rgb(255 215 61 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
