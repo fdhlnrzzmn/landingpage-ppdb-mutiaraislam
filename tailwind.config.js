@@ -6,7 +6,7 @@ module.exports = {
       colors : {
       primaryColor : '#70C2C9',
       secondaryColor : '#ACDFE2',
-      thirdColor : '#345E85',
+      thirdColor : '#0f1729',
       fourthColor : '#FFD73D',
     },
       fontFamily :{

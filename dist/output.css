@@ -572,13 +572,8 @@ video {
   top: 0px;
 }
 
-.z-\[9999px\] {
-  z-index: 9999px;
-}
-
-.mx-11 {
-  margin-left: 2.75rem;
-  margin-right: 2.75rem;
+.z-\[9999\] {
+  z-index: 9999;
 }
 
 .mx-6 {
@@ -591,20 +586,8 @@ video {
   margin-right: auto;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mr-1 {
@@ -615,16 +598,8 @@ video {
   margin-top: 2rem;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-\[25px\] {
@@ -645,18 +620,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[65\%\] {
-  width: 65%;
 }
 
 .flex-wrap {
@@ -689,17 +652,12 @@ video {
 
 .border-thirdColor {
   --tw-border-opacity: 1;
-  border-color: rgb(52 94 133 / var(--tw-border-opacity));
-}
-
-.bg-secondaryColor {
-  --tw-bg-opacity: 1;
-  background-color: rgb(172 223 226 / var(--tw-bg-opacity));
+  border-color: rgb(15 23 41 / var(--tw-border-opacity));
 }
 
 .bg-thirdColor {
   --tw-bg-opacity: 1;
-  background-color: rgb(52 94 133 / var(--tw-bg-opacity));
+  background-color: rgb(15 23 41 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -707,32 +665,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/src\/img\/hero-mobile\.jpg\'\)\] {
-  background-image: url('/src/img/hero-mobile.jpg');
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.from-blue-500 {
-  --tw-gradient-from: #3b82f6 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(59 130 246 / 0) var(--tw-gradient-to-position);
+.from-sky-700 {
+  --tw-gradient-from: #0369a1 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(3 105 161 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-teal-400 {
-  --tw-gradient-from: #2dd4bf var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(45 212 191 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.to-blue-500 {
-  --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
-}
-
-.to-teal-400 {
-  --tw-gradient-to: #2dd4bf var(--tw-gradient-to-position);
+.to-thirdColor {
+  --tw-gradient-to: #0f1729 var(--tw-gradient-to-position);
 }
 
 .bg-clip-text {
@@ -773,8 +717,8 @@ video {
   padding-bottom: 14rem;
 }
 
-.pt-56 {
-  padding-top: 14rem;
+.pt-44 {
+  padding-top: 11rem;
 }
 
 .text-center {
@@ -810,16 +754,16 @@ video {
 
 .text-thirdColor {
   --tw-text-opacity: 1;
-  color: rgb(52 94 133 / var(--tw-text-opacity));
+  color: rgb(15 23 41 / var(--tw-text-opacity));
+}
+
+.text-transparent {
+  color: transparent;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-transparent {
-  color: transparent;
 }
 
 .shadow-xl {
@@ -837,9 +781,9 @@ body {
   background-color: rgb(112 194 201 / var(--tw-bg-opacity));
 }
 
-.hover\:shadow-lg:hover {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+.hover\:shadow-2xl:hover {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -853,16 +797,8 @@ body {
     margin-bottom: 0px;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:flex {
     display: flex;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:w-\[50\%\] {
@@ -873,12 +809,8 @@ body {
     width: 75%;
   }
 
-  .md\:bg-\[url\(\'\/src\/img\/hero\.jpg\'\)\] {
-    background-image: url('/src/img/hero.jpg');
-  }
-
-  .md\:pt-80 {
-    padding-top: 20rem;
+  .md\:pt-60 {
+    padding-top: 15rem;
   }
 
   .md\:text-6xl {
@@ -888,10 +820,6 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .lg\:w-\[20\%\] {
-    width: 20%;
-  }
-
   .lg\:w-\[16\%\] {
     width: 16%;
   }
