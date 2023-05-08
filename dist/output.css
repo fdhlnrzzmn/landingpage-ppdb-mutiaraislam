@@ -588,6 +588,14 @@ video {
   top: 0px;
 }
 
+.bottom-24 {
+  bottom: 6rem;
+}
+
+.bottom-\[90px\] {
+  bottom: 90px;
+}
+
 .z-\[9999\] {
   z-index: 9999;
 }
@@ -861,14 +869,28 @@ video {
   border-width: 2px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-thirdColor {
   --tw-border-opacity: 1;
   border-color: rgb(15 23 41 / var(--tw-border-opacity));
 }
 
-.bg-fourthColor {
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-green-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(74 222 128 / var(--tw-border-opacity));
+}
+
+.bg-gray-50 {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 215 61 / var(--tw-bg-opacity));
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .bg-green-400 {
@@ -891,29 +913,19 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-yellow-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
-}
-
 .bg-yellow-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 240 138 / var(--tw-bg-opacity));
 }
 
-.bg-slate-50 {
+.bg-primaryColor {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+  background-color: rgb(112 194 201 / var(--tw-bg-opacity));
 }
 
-.bg-slate-100 {
+.bg-fourthColor {
   --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
-
-.bg-gray-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+  background-color: rgb(255 215 61 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/src\/img\/hero-mobile\.webp\'\)\] {
@@ -1018,8 +1030,16 @@ video {
   padding-top: 11rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-poppins {
@@ -1158,6 +1178,10 @@ img {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+.hover\:animate-none:hover {
+  animation: none;
+}
+
 .hover\:bg-green-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
@@ -1284,6 +1308,22 @@ img {
 @media (min-width: 1024px) {
   .lg\:bottom-24 {
     bottom: 6rem;
+  }
+
+  .lg\:bottom-28 {
+    bottom: 7rem;
+  }
+
+  .lg\:bottom-\[100px\] {
+    bottom: 100px;
+  }
+
+  .lg\:bottom-\[111px\] {
+    bottom: 111px;
+  }
+
+  .lg\:bottom-\[106px\] {
+    bottom: 106px;
   }
 
   .lg\:mx-36 {
