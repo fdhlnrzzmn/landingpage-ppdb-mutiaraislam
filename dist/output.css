@@ -631,6 +631,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -641,14 +645,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .block {
@@ -870,6 +866,11 @@ video {
   border-color: rgb(15 23 41 / var(--tw-border-opacity));
 }
 
+.bg-fourthColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 215 61 / var(--tw-bg-opacity));
+}
+
 .bg-green-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
@@ -888,6 +889,31 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+
+.bg-slate-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/src\/img\/hero-mobile\.webp\'\)\] {
@@ -972,10 +998,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -988,36 +1010,12 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
 .pt-24 {
   padding-top: 6rem;
 }
 
-.pt-96 {
-  padding-top: 24rem;
-}
-
-.pt-48 {
-  padding-top: 12rem;
-}
-
 .pt-44 {
   padding-top: 11rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
 }
 
 .text-center {
@@ -1245,28 +1243,16 @@ img {
     background-image: url('/src/img/hero.webp');
   }
 
-  .md\:pt-52 {
-    padding-top: 13rem;
-  }
-
-  .md\:pt-56 {
-    padding-top: 14rem;
-  }
-
-  .md\:pt-64 {
-    padding-top: 16rem;
-  }
-
-  .md\:pt-72 {
-    padding-top: 18rem;
-  }
-
   .md\:pb-32 {
     padding-bottom: 8rem;
   }
 
   .md\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .md\:pt-64 {
+    padding-top: 16rem;
   }
 
   .md\:text-4xl {
@@ -1348,10 +1334,6 @@ img {
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .lg\:pb-32 {
-    padding-bottom: 8rem;
   }
 
   .lg\:pb-40 {
