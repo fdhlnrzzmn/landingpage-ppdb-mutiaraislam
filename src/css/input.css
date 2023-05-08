@@ -6,7 +6,3 @@ body {
     @apply font-poppins;
     @apply text-thirdColor;
 }
-
-img {
-    @apply pointer-events-none;
-}
