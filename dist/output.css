@@ -704,14 +704,6 @@ video {
   height: 30px;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
 .w-5 {
   width: 1.25rem;
 }
@@ -971,11 +963,6 @@ video {
      object-fit: cover;
 }
 
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -1019,11 +1006,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
 .py-\[0px\] {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1049,12 +1031,12 @@ video {
   padding-top: 6rem;
 }
 
-.pt-44 {
-  padding-top: 11rem;
-}
-
 .pt-40 {
   padding-top: 10rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .text-left {
@@ -1070,14 +1052,22 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -1100,36 +1090,6 @@ video {
   line-height: 1;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-\[40px\] {
-  font-size: 40px;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-\[9px\] {
-  font-size: 9px;
-}
-
-.text-\[12px\] {
-  font-size: 12px;
-}
-
-.text-\[11px\] {
-  font-size: 11px;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1142,60 +1102,20 @@ video {
   font-weight: 600;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 .italic {
   font-style: italic;
 }
 
-.leading-relaxed {
-  line-height: 1.625;
-}
-
-.leading-7 {
-  line-height: 1.75rem;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-none {
-  line-height: 1;
-}
-
-.leading-8 {
-  line-height: 2rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-\[50px\] {
-  line-height: 50px;
-}
-
-.leading-\[45px\] {
-  line-height: 45px;
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .leading-\[42px\] {
   line-height: 42px;
 }
 
-.leading-\[40px\] {
-  line-height: 40px;
-}
-
-.leading-5 {
-  line-height: 1.25rem;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .text-gray-700 {
@@ -1215,11 +1135,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-primaryColor {
-  --tw-text-opacity: 1;
-  color: rgb(112 194 201 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -1309,11 +1224,6 @@ body {
   background-color: rgb(8 47 73 / var(--tw-bg-opacity));
 }
 
-.hover\:text-thirdColor:hover {
-  --tw-text-opacity: 1;
-  color: rgb(15 23 41 / var(--tw-text-opacity));
-}
-
 .hover\:shadow-2xl:hover {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1358,6 +1268,10 @@ body {
     margin-top: 2rem;
   }
 
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1390,21 +1304,6 @@ body {
     background-image: url('/src/img/hero.webp');
   }
 
-  .md\:py-7 {
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
-  }
-
-  .md\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .md\:py-11 {
     padding-top: 2.75rem;
     padding-bottom: 2.75rem;
@@ -1416,10 +1315,6 @@ body {
 
   .md\:pt-32 {
     padding-top: 8rem;
-  }
-
-  .md\:pt-64 {
-    padding-top: 16rem;
   }
 
   .md\:pt-60 {
@@ -1436,9 +1331,8 @@ body {
     line-height: 1;
   }
 
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+  .md\:text-\[57px\] {
+    font-size: 57px;
   }
 
   .md\:text-base {
@@ -1449,27 +1343,6 @@ body {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .md\:text-\[45px\] {
-    font-size: 45px;
-  }
-
-  .md\:text-\[54px\] {
-    font-size: 54px;
-  }
-
-  .md\:text-\[57px\] {
-    font-size: 57px;
-  }
-
-  .md\:leading-\[60px\] {
-    line-height: 60px;
   }
 
   .md\:leading-\[63px\] {
