@@ -16,6 +16,16 @@
     <link href="dist/output.css" rel="stylesheet">
 </head>
 
+<!-- Tambahkan script Vercel Analytics di sini -->
+<script>
+  (function(e, t) {
+      var n, s, i;
+      e.analytics = e.analytics || function() {
+          return e.analytics.readyQueue.push(arguments);
+      }, e.analytics.readyQueue = [], n = t.createElement("script"), n.async = true, n.src = "https://cdn.vercel-analytics.com/v1/script.js", n.id = "vercel-analytics", n.setAttribute("data-domain", "YOUR_DOMAIN_HERE"), s = t.getElementsByTagName("script")[0], s.parentNode.insertBefore(n, s);
+  })(window, document);
+</script>
+
     <!-- Meta Pixel Code -->
       <script>
       !function(f,b,e,v,n,t,s)
