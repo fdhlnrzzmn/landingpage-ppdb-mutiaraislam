@@ -17,14 +17,10 @@
 </head>
 
     <!-- Vercel Analytics-->
-      <script>
-        (function(e, t) {
-            var n, s, i;
-            e.analytics = e.analytics || function() {
-                return e.analytics.readyQueue.push(arguments);
-            }, e.analytics.readyQueue = [], n = t.createElement("script"), n.async = true, n.src = "https://cdn.vercel-analytics.com/v1/script.js", n.id = "vercel-analytics", n.setAttribute("data-domain", "YOUR_DOMAIN_HERE"), s = t.getElementsByTagName("script")[0], s.parentNode.insertBefore(n, s);
-        })(window, document);
-      </script>
+        <script>
+          window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+        </script>
+        <script defer src="/_vercel/insights/script.js"></script>
     <!-- Vercel Analytics-->
 
     <!-- Meta Pixel Code -->
