@@ -4,6 +4,7 @@
     "tailwindcss": "^3.3.2"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
+    "prettier": "npx prettier --write index.html"
   }
 }
