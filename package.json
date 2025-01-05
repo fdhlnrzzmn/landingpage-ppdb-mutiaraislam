@@ -6,5 +6,9 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
     "prettier": "npx prettier --write index.html"
+  },
+  "dependencies": {
+    "braces": "~3.0.3",
+    "postcss": "~8.4.31"
   }
 }
