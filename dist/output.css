@@ -772,6 +772,10 @@ video {
   flex-wrap: wrap;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1025,6 +1029,10 @@ video {
   padding-top: 6rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .pt-40 {
   padding-top: 10rem;
 }
@@ -1033,12 +1041,12 @@ video {
   padding-top: 1.75rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
@@ -1075,6 +1083,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1297,10 +1310,6 @@ body {
     width: 90%;
   }
 
-  .md\:w-\[85\%\] {
-    width: 85%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1350,6 +1359,32 @@ body {
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-\[75px\] {
+    font-size: 75px;
+  }
+
+  .md\:text-\[54px\] {
+    font-size: 54px;
+  }
+
+  .md\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .md\:text-\[50px\] {
+    font-size: 50px;
   }
 
   .md\:leading-\[63px\] {
