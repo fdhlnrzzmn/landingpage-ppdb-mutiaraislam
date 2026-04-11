@@ -50,10 +50,27 @@
     </title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <style>
+      @font-face {
+        font-family: 'Dynapuff';
+        src:
+          url('/src/fonts/dynapuff.woff2') format('woff2'),
+          url('/src/fonts/dynapuff.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
     <link rel="shortcut icon" href="mik-favicon.ico" />
     <link href="dist/output.css" rel="stylesheet" />
   </head>
@@ -115,7 +132,7 @@
     <!-- Header Start -->
     <header>
       <nav
-        class="fixed z-[9999] top-0 left-0 right-0 container w-[70%] md:w-[25%] 2xl:w-[14%] mx-auto bg-white px-6 py-4 rounded-br-2xl rounded-bl-2xl shadow-xl"
+        class="fixed z-[9999] top-0 left-0 right-0 container w-[70%] md:w-[25%] 2xl:w-[15%] mx-auto bg-white px-6 pt-6 pb-4 rounded-br-2xl rounded-bl-2xl shadow-md"
       >
         <a href="/">
           <img
@@ -136,18 +153,32 @@
       <div class="container mx-auto relative overflow-hidden">
         <div class="text-center mx-6 md:mx-0">
           <h1
-            class="w-full md:w-[70%] mx-auto font-bold text-4xl md:text-[54px] pb-2 mb-4 bg-gradient-to-r from-sky-700 to-thirdColor px-4 text-transparent bg-clip-text leading-[35px] md:leading-[63px]"
+            class="w-full md:w-[70%] mx-auto font-bold text-4xl md:text-[54px] pb-2 mb-4 bg-gradient-to-r from-sky-700 to-thirdColor px-4 text-transparent bg-clip-text leading-[40px] md:leading-[65px]"
           >
-            Ayah Bunda Lagi Cari Taman Kanak-Kanak Islami Untuk Ananda? Pilihan
-            Terbaik Ada Di Sini!
+            Ayah Bunda Lagi Cari
+            <span
+              class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+              >Playgroup </span
+            >&
+            <span
+              class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+              >TK
+            </span>
+            Islami Untuk Ananda?
+            <br />Pilihan
+            <span
+              class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+              >Terbaik
+            </span>
+            Ada Di Sini!
           </h1>
           <p
-            class="w-full md:w-[70%] mx-auto text-md md:text-lg text-gray-700 leading-6 px-4"
+            class="w-full md:w-[70%] mx-auto text-md md:text-lg text-thirdColor leading-6 px-4"
           >
             Raudhatul Athfal Mutiara Islam Kendari telah mendidik generasi hebat
             sejak 2006. Terakreditasi B, kami menawarkan pendidikan berbasis
             Islam dengan jenjang playgroup dan TK yang mendekatkan anak pada
-            Al-Qur’an dan Hadist.
+            Al-Qur’an dan Hadist
           </p>
         </div>
         <div
@@ -184,16 +215,24 @@
     <section class="pt-24 pb-24 md:pt-32 md:pb-32 bg-secondaryColor px-6">
       <div class="container mx-auto text-center">
         <h2
-          class="font-bold text-3xl leading-[35px] md:text-5xl bg-gradient-to-r from-sky-700 to-thirdColor text-transparent bg-clip-text py-3"
+          class="font-bold text-3xl md:text-5xl leading-[40px] md:leading-[65px] bg-gradient-to-r from-sky-700 to-thirdColor text-transparent bg-clip-text py-3"
         >
-          Kenapa RA Mutiara Islam Kendari<br />Jadi Pilihan Tepat?
+          <span
+            class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+            >Kenapa
+          </span>
+          RA Mutiara Islam Kendari<br />Jadi Pilihan
+          <span
+            class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+            >Terbaik?
+          </span>
         </h2>
         <p
-          class="w-full md:w-[70%] mx-auto text-md text-gray-700 leading-6 mt-2 px-4"
+          class="w-full md:w-[70%] mx-auto text-md text-thirdColor leading-6 mt-3 px-4"
         >
           Jangan lewatkan masa emas si kecil! Dengan 8 keunggulan istimewa, kami
           hadir untuk mendidik Ananda menjadi generasi sholeh, cerdas, dan
-          percaya diri—semuanya dengan biaya terjangkau.
+          percaya diri, semuanya dengan biaya terjangkau
         </p>
         <div
           class="w-full grid grid-cols-2 md:grid-cols-4 md:gap-7 justify-center pt-10 align-center"
@@ -209,7 +248,7 @@
             <h3 class="font-semibold text-xl mb-3 leading-6">
               Akhlak Sesuai Islam
             </h3>
-            <p class="text-sm text-gray-700">
+            <p class="text-sm text-thirdColor">
               Ananda Akan Dibina dan Dibimbing Sesuai Tuntunan Qur'an dan Sunnah
             </p>
           </div>
@@ -222,7 +261,7 @@
               loading="lazy"
             />
             <h3 class="font-semibold text-xl mb-3 leading-6">Hafalan Qur'an</h3>
-            <p class="text-sm text-gray-700">
+            <p class="text-sm text-thirdColor">
               Menghafal Surah-Surah Pendek Al Qur'an di Juz 30 (Juz Amma)
             </p>
           </div>
@@ -237,7 +276,7 @@
             <h3 class="font-semibold text-xl mb-3 leading-6">
               Hafalan Hadist dan Do'a
             </h3>
-            <p class="text-sm text-gray-700">
+            <p class="text-sm text-thirdColor">
               Menghafal Hadist-Hadist Nabi dan Do'a Do'a Harian Pilihan
             </p>
           </div>
@@ -250,9 +289,9 @@
               loading="lazy"
             />
             <h3 class="font-semibold text-xl mb-3 leading-6">
-              Belajar Membaca Qur'an
+              Belajar Baca Qur'an
             </h3>
-            <p class="text-sm text-gray-700">
+            <p class="text-sm text-thirdColor">
               Mempelajari Cara Membaca Qur'an Sesuai Dengan Kaidahnya
             </p>
           </div>
@@ -267,7 +306,7 @@
             <h3 class="font-semibold text-xl mb-3 leading-6">
               Baca, Tulis, dan Hitung
             </h3>
-            <p class="text-sm text-gray-700">
+            <p class="text-sm text-thirdColor">
               Melatih Keterampilan Dasar Untuk Persiapan Memasuki Sekolah Dasar
             </p>
           </div>
@@ -282,7 +321,7 @@
             <h3 class="font-semibold text-xl mb-3 leading-6">
               Pembiasaan Shalat
             </h3>
-            <p class="text-sm text-gray-700">
+            <p class="text-sm text-thirdColor">
               Membiasakan Shalat melalui Dhuha dan Dzuhur Agar Terbiasa Saat
               Baligh
             </p>
@@ -298,7 +337,7 @@
             <h3 class="font-semibold text-xl mb-3 leading-6">
               Program Seru dan Menarik
             </h3>
-            <p class="text-sm text-gray-700">
+            <p class="text-sm text-thirdColor">
               Kelas Sains, Berenang, Memasak, Kunjungan ke Perpustakaan, SAR,
               dan Lainnya
             </p>
@@ -314,7 +353,7 @@
             <h3 class="font-semibold text-xl mb-3 leading-6">
               Biaya Terjangkau
             </h3>
-            <p class="text-sm text-gray-700">
+            <p class="text-sm text-thirdColor">
               Tak Perlu Khawatir Masalah Biaya, Kami Terjangkau dengan Kemudahan
               Pembayaran
             </p>
@@ -331,41 +370,47 @@
       <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-11 mx-0 lg:mx-36">
           <div class="self-center md:w-[90%]">
+            <h2 class="font-semibold text-lg mb-4">ALAMAT</h2>
             <h2
               class="font-bold text-3xl md:text-5xl bg-gradient-to-r from-sky-700 to-thirdColor text-transparent bg-clip-text"
             >
-              Lokasi Kami
+              Yuk
+              <span
+                class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+                >Berkunjung
+              </span>
+              Ke Sekolah Kami
             </h2>
-            <p class="mt-4 md:mt-8 text-md text-gray-700 leading-6 md:pr-5">
+            <p class="mt-8 md:mt-9 text-md text-thirdColor leading-6 md:pr-5">
               Kami berlokasi strategis di Jalan Beringin, belakang Lippo Plaza
               Kendari—di pusat kota, memudahkan Ayah dan Bunda dalam mengantar
               jemput Ananda. Jarak bukan lagi masalah, baik dari rumah maupun
-              kantor. Yuk, kunjungi kami!
+              kantor
             </p>
             <div
-              class="grid grid-cols-2 gap-3 justify-start mt-5 md:mt-8 md:w-[70%]"
+              class="grid grid-cols-1 md:flex md:flex-wrap gap-3 mt-8 md:mt-9 mb-9"
             >
               <a
                 href="https://forms.gle/CF7gvZTw7oJXhzzK9"
                 target="_blank"
-                class="hover:scale-105 duration-300 ease-in-out flex text-sm md:text-base justify-center px-4 py-3 bg-thirdColor rounded-xl text-white hover:bg-primaryColor shadow-xl hover:shadow-2xl"
+                class="hover:scale-105 duration-300 ease-in-out flex text-sm md:text-base justify-center px-5 py-3 bg-thirdColor rounded-xl text-white hover:bg-primaryColor shadow-xl hover:shadow-2xl"
               >
                 <img
                   src="./src/img/daftar.webp"
                   alt="daftar sekolah islam kendari"
                   class="mr-1 w-[22px] h-[22px]"
-                />Daftar
+                />Daftar Sekarang
               </a>
               <a
                 href="https://api.whatsapp.com/send?phone=6285241683317&text=Assalamu%27alaikum%20Warahmatullah,%20Bu.%20Saya%20ingin%20bertanya%20mengenai%20pendaftaran%20RA.%20Mutiara%20Islam%20Kendari,%20terimakasih."
                 target="_blank"
-                class="hover:scale-105 duration-300 ease-in-out flex text-sm md:text-base justify-center px-4 py-3 border-2 border-thirdColor rounded-xl text-thirdColor hover:bg-primaryColor shadow-xl hover:shadow-2xl"
+                class="hover:scale-105 duration-300 ease-in-out flex text-sm md:text-base justify-center px-5 py-3 border-2 border-thirdColor rounded-xl text-thirdColor hover:bg-primaryColor shadow-xl hover:shadow-2xl"
               >
                 <img
                   src="./src/img/whatsapp.webp"
                   alt="whatsapp mutiara islam kendari"
                   class="mr-1 w-[22px] h-[22px]"
-                />Whatsapp
+                />Konsultasi via Whatsapp
               </a>
             </div>
           </div>
@@ -374,7 +419,7 @@
               class="rounded-xl shadow-lg"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.1416272260535!2d122.51080107541749!3d-3.9912815959824597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d988d350019d511%3A0xd567658cd5ca4083!2sTK%2FRA%20Mutiara%20Islam%20Kendari!5e0!3m2!1sid!2sid!4v1683466285109!5m2!1sid!2sid"
               width="100%"
-              height="540"
+              height="400"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
@@ -392,18 +437,28 @@
     >
       <div class="container mx-auto text-center">
         <h2
-          class="font-bold text-3xl md:text-5xl leading-[35px] bg-gradient-to-r from-sky-700 to-thirdColor text-transparent bg-clip-text"
+          class="font-bold text-3xl md:text-5xl leading-[40px] md:leading-[65px] bg-gradient-to-r from-sky-700 to-thirdColor text-transparent bg-clip-text"
         >
-          Foto Kegiatan dan Keseruan Belajar<br />di RA Mutiara Islam Kendari
+          Momen Keseruan
+          <span
+            class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+            >Belajar</span
+          >dan
+          <span
+            class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+            >Bermain
+          </span>
+          <br />
+          di RA Mutiara Islam Kendari
         </h2>
         <p
-          class="w-full md:w-[70%] mx-auto text-md text-gray-700 leading-6 my-8"
+          class="w-full md:w-[70%] mx-auto text-md text-thirdColor leading-6 my-8"
         >
           Setiap hari, Ananda akan belajar sambil bermain dengan teman sebaya
           melalui kegiatan seru seperti kunjungan edukasi, bermain, dan
           pembiasaan ibadah. Pulang, pasti ada cerita seru untuk Ayah dan Bunda!
         </p>
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 mt-8">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 mt-10">
           <img
             src="/src/img/g6.webp"
             alt="kegiatan kunjungan ke kolam renang di taman kanak-kanak mutiara islam kendari"
@@ -483,47 +538,34 @@
             loading="lazy"
           />
         </div>
-        <div
-          class="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4 mt-2 lg:mt-4"
+        <!-- <div
+          class="mt-2 md:mt-4 grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-8"
         >
-          <img
-            src="/src/img/g12.webp"
-            alt="pembiasaan shalat dhuha setiap pagi di taman kanak-kanak mutiara islam kendari"
-            title="pembiasaan shalat dhuha setiap pagi di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g13.webp"
-            alt="serunya belajar di taman kanak-kanak mutiara islam kendari"
-            title="serunya belajar di taman kanak-kanak mutiara islam kendari"
-            class="hidden lg:block rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
-        </div>
-        <div class="grid grid-cols-3 gap-2 lg:gap-4 mt-2 lg:mt-4">
-          <img
-            src="/src/img/g14.webp"
-            alt="suasana ruang kelas dan belajar di taman kanak-kanak mutiara islam kendari"
-            title="suasana ruang kelas dan belajar di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square object-cover"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g16.webp"
-            alt="fasilitas taman bermain di taman kanak-kanak mutiara islam kendari"
-            title="fasilitas taman bermain di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square object-cover"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g17.webp"
-            alt="tarhib muharram m enyambut bulan ramadhan di taman kanak-kanak mutiara islam kendari"
-            title="tarhib muharram m enyambut bulan ramadhan di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square object-cover"
-            loading="lazy"
-          />
-        </div>
+          <iframe
+            class="rounded-xl shadow-lg w-full h-[200px] md:h-[500px]"
+            src="https://www.youtube.com/embed/R3q3YYFx7Iw?rel=0&modestbranding=1&controls=1&fs=1&iv_load_policy=3&disablekb=1&playsinline=1"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="rounded-xl shadow-lg w-full h-[200px] md:h-[500px]"
+            src="https://www.youtube.com/embed/R3q3YYFx7Iw?rel=0&modestbranding=1&controls=1&fs=1&iv_load_policy=3&disablekb=1&playsinline=1"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="rounded-xl shadow-lg w-full h-[200px] md:h-[500px]"
+            src="https://www.youtube.com/embed/R3q3YYFx7Iw?rel=0&modestbranding=1&controls=1&fs=1&iv_load_policy=3&disablekb=1&playsinline=1"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="rounded-xl shadow-lg w-full h-[200px] md:h-[500px]"
+            src="https://www.youtube.com/embed/R3q3YYFx7Iw?rel=0&modestbranding=1&controls=1&fs=1&iv_load_policy=3&disablekb=1&playsinline=1"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div> -->
         <a
           href="https://forms.gle/CF7gvZTw7oJXhzzK9"
           target="_blank"
@@ -547,8 +589,21 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:mx-32">
           <div class="self-center w-full md:w-[80%]">
             <h2 class="font-semibold text-lg">TESTIMONI</h2>
-            <h2 class="font-bold text-3xl leading-[80px] md:text-5xl pt-4">
-              Pendapat Orang Tua Siswa Tentang Sekolah Kami
+            <h2
+              class="font-bold text-3xl md:text-5xl leading-[40px] md:leading-[65px] pt-4"
+            >
+              Pendapat Orang Tua Siswa
+              <span
+                class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+              >
+                Tentang
+              </span>
+              <span
+                class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+              >
+                Sekolah
+              </span>
+              Kami
             </h2>
             <p class="pt-8 w-full md:w-[90%]">
               Simak pengalaman orang tua siswa di Raudhatul Athfal Mutiara Islam
@@ -569,73 +624,30 @@
     </section>
     <!-- Testimony End -->
 
-    <!-- Anouncement Start -->
-    <section
-      class="pt-24 pb-24 md:pt-32 md:pb-32 px-6 lg:px-0 bg-fifthColor bg-cover bg-center m-4 rounded-xl shadow-sm text-white"
-    >
-      <div class="container mx-auto text-center">
-        <h2
-          class="font-bold text-3xl leading-10 md:text-5xl text-sixthColor md:w-[70%] mx-auto"
-        >
-          Usia Emas Ananda Hanya Sekali Seumur Hidup! Pendidikan Terbaik Dimulai
-          Sejak Dini dan Dari Sini!
-        </h2>
-        <p
-          class="text-md md:text-base mt-8 w-full md:w-[50%] mx-auto text-sixthColor"
-        >
-          "Didiklah anakmu, karena sesungguhnya engkau akan dimintai
-          pertanggungjawaban mengenai pendidikan dan pengajaran yang telah
-          engkau berikan kepadanya. Dan dia juga akan ditanya mengenai kebaikan
-          dirimu kepadanya serta ketaatannya kepada dirimu"<br /><span
-            class="font-semibold"
-          >
-            - Abdullah bin Umar</span
-          >
-        </p>
-        <div
-          class="w-[75%] md:w-[50%] md:flex flex-wrap gap-6 justify-center mx-auto mt-8"
-        >
-          <a
-            href="https://forms.gle/CF7gvZTw7oJXhzzK9"
-            target="_blank"
-            class="hover:scale-105 duration-300 ease-in-out flex justify-center px-4 py-3 bg-thirdColor border-2 border-white rounded-xl hover:bg-fourthColor shadow-xl hover:shadow-2xl mb-4 md:mb-0"
-          >
-            <img
-              src="./src/img/daftar.webp"
-              alt="daftar sekolah islam kendari"
-              class="mr-1 w-[25px] h-[25px] pointer-events-none"
-            />Daftar Sekarang
-          </a>
-          <a
-            href="https://api.whatsapp.com/send?phone=6285241683317&text=Assalamu'alaikum%20Warahmatullah,%20Bu.%20Saya%20ingin%20bertanya%20mengenai%20pendaftaran%20RA.%20Mutiara%20Islam%20Kendari,%20terimakasih."
-            target="_blank"
-            class="hover:scale-105 duration-300 ease-in-out flex justify-center px-4 py-3 border-2 border-thirdColor bg-white rounded-xl text-thirdColor hover:bg-secondaryColor shadow-xl hover:shadow-2xl"
-          >
-            <img
-              src="./src/img/whatsapp.webp"
-              alt="whatsapp mutiara islam kendari"
-              class="mr-1 w-[25px] h-[25px] pointer-events-none"
-            />Hubungi Kami
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- Anouncement End -->
-
     <!-- FAQ Start -->
     <section
-      class="pt-24 pb-24 md:pt-32 md:pb-32 px-6 bg-yellow-200 m-4 rounded-xl shadow-sm"
+      class="pt-24 pb-24 md:pt-32 md:pb-32 px-6 bg-fifthColor m-4 rounded-xl shadow-sm"
     >
       <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:mx-32">
           <div class="self-center w-full md:w-[80%]">
             <h2 class="font-semibold text-lg">FAQ</h2>
             <h2
-              class="font-bold text-3xl leading-8 md:text-5xl bg-gradient-to-r text-sixthColor pt-4"
+              class="font-bold text-3xl md:text-5xl leading-[40px] md:leading-[65px] bg-gradient-to-r text-sixthColor pt-4"
             >
-              Pertanyaan Umum yang Sering Ditanyakan
+              <span
+                class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+              >
+                Pertanyaan
+              </span>
+              yang Sering
+              <span
+                class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+              >
+                Ditanyakan
+              </span>
             </h2>
-            <p class="text-gray-700 pt-7 md:w-[90%]">
+            <p class="text-thirdColor pt-7 md:w-[90%]">
               Berikut pertanyaan-pertanyaan yang sering ditanyakan tentang
               sekolah kami, bila jawaban yang Ayah dan Bunda cari tidak ada di
               sini, jangan sungkan untuk menghubungi kami
@@ -644,7 +656,7 @@
           <div class="mt-8 md:mt-0 space-y-4 text-left">
             <details class="group hover:scale-105 duration-300 ease-in-out">
               <summary
-                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor shadow-md shadow-gray-50"
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor"
               >
                 <h2
                   class="text-sm md:text-base font-medium transition ease-in-out duration-500"
@@ -676,7 +688,7 @@
             </details>
             <details class="group hover:scale-105 duration-300 ease-in-out">
               <summary
-                class="flex cursor-pointer justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor shadow-md shadow-gray-50"
+                class="flex cursor-pointer justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor"
               >
                 <h2 class="text-sm md:text-base font-medium">
                   Sejak Kapan RA Mutiara Islam Kendari Berdiri?
@@ -707,7 +719,7 @@
             </details>
             <details class="group hover:scale-105 duration-300 ease-in-out">
               <summary
-                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor shadow-md shadow-gray-50"
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor"
               >
                 <h2 class="text-sm md:text-base font-medium">
                   Apakah Sekolah Kami Sudah Terakreditasi?
@@ -736,7 +748,7 @@
             </details>
             <details class="group hover:scale-105 duration-300 ease-in-out">
               <summary
-                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor shadow-md shadow-gray-50"
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor"
               >
                 <h2 class="text-sm md:text-base font-medium">
                   Apakah Kami Menyediakan Kemudahan Pembayaran?
@@ -767,7 +779,7 @@
             </details>
             <details class="group hover:scale-105 duration-300 ease-in-out">
               <summary
-                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor shadow-md shadow-gray-50"
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor"
               >
                 <h2 class="text-sm md:text-base font-medium">
                   Berkas Apa Saja yang Perlu Disiapkan untuk Pendaftaran?
@@ -798,7 +810,7 @@
             </details>
             <details class="group hover:scale-105 duration-300 ease-in-out">
               <summary
-                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor shadow-md shadow-gray-50"
+                class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-white p-4 text-thirdColor"
               >
                 <h2 class="text-sm md:text-base font-medium">
                   Bagaimana Jadwal dan Jam Belajar di Sekolah Kami?
@@ -834,6 +846,81 @@
     </section>
     <!-- FAQ End -->
 
+    <!-- CTA Start -->
+    <section
+      class="pt-24 pb-24 md:pt-32 md:pb-32 px-6 lg:px-0 bg-[url('/src/img/cta-image.webp')] bg-no-repeat bg-cover m-4 rounded-xl shadow-sm text-white"
+    >
+      <div class="container mx-auto text-center">
+        <h2
+          class="font-bold text-3xl md:text-5xl leading-[40px] md:leading-[65px] text-white md:w-[70%] mx-auto"
+        >
+          <span
+            class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+          >
+            Usia Emas
+          </span>
+          Ananda
+          <span
+            class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+          >
+            Hanya Sekali
+          </span>
+          Ananda Seumur Hidup! Pendidikan Terbaik
+          <span
+            class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+          >
+            Dimulai
+          </span>
+          Sejak Dini dan
+          <span
+            class="bg-fourthColor rounded-full px-2 text-thirdColor font-bold"
+          >
+            Dari Sini!
+          </span>
+        </h2>
+
+        <p
+          class="text-md md:text-base mt-8 w-full md:w-[50%] mx-auto text-white"
+        >
+          "Didiklah anakmu, karena sesungguhnya engkau akan dimintai
+          pertanggungjawaban mengenai pendidikan dan pengajaran yang telah
+          engkau berikan kepadanya. Dan dia juga akan ditanya mengenai kebaikan
+          dirimu kepadanya serta ketaatannya kepada dirimu"<br /><span
+            class="font-semibold"
+          >
+            - Abdullah bin Umar</span
+          >
+        </p>
+        <div
+          class="w-[75%] md:w-[50%] md:flex flex-wrap gap-6 justify-center mx-auto mt-8"
+        >
+          <a
+            href="https://forms.gle/CF7gvZTw7oJXhzzK9"
+            target="_blank"
+            class="hover:scale-105 duration-300 ease-in-out flex justify-center px-4 py-3 bg-thirdColor border-2 border-white rounded-xl hover:bg-primaryColor shadow-xl hover:shadow-2xl mb-4 md:mb-0"
+          >
+            <img
+              src="./src/img/daftar.webp"
+              alt="daftar sekolah islam kendari"
+              class="mr-1 w-[25px] h-[25px] pointer-events-none"
+            />Daftar Sekarang
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=6285241683317&text=Assalamu'alaikum%20Warahmatullah,%20Bu.%20Saya%20ingin%20bertanya%20mengenai%20pendaftaran%20RA.%20Mutiara%20Islam%20Kendari,%20terimakasih."
+            target="_blank"
+            class="hover:scale-105 duration-300 ease-in-out flex justify-center px-4 py-3 border-2 border-thirdColor bg-primaryColor rounded-xl text-thirdColor hover:bg-secondaryColor shadow-xl hover:shadow-2xl"
+          >
+            <img
+              src="./src/img/whatsapp.webp"
+              alt="whatsapp mutiara islam kendari"
+              class="mr-1 w-[25px] h-[25px] pointer-events-none"
+            />Hubungi Kami
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- CTA End -->
+
     <!-- Footer Start -->
     <footer>
       <div
@@ -850,12 +937,12 @@
     </footer>
     <!-- Footer End -->
 
-    <!-- CTA Button Start -->
+    <!-- Floating Button Start -->
     <section>
       <a
         href="https://forms.gle/CF7gvZTw7oJXhzzK9"
         target="_blank"
-        class="hover:scale-105 duration-300 ease-in-out fixed z-[9999] bottom-[82px] lg:bottom-[106px] right-5 lg:right-7 animate-bounce hover:animate-none rounded-xl shadow-2xl flex items-center px-5 py-2 bg-primaryColor border-4 border-white hover:bg-sky-950 text-white"
+        class="hover:scale-105 duration-300 ease-in-out fixed z-[9999] bottom-[82px] lg:bottom-[106px] right-5 lg:right-7 animate-bounce hover:animate-none rounded-xl shadow-2xl flex items-center px-5 py-2 bg-primaryColor border-4 border-white hover:bg-thirdColor text-white"
       >
         <img
           src="/src/img/daftar.webp"
@@ -874,10 +961,10 @@
           class="w-[20px] h-[20px] lg:w-[45px] lg:h-[45px] mr-2 pointer-events-none"
           alt="icon hubungi whatsapp mutiara islam kendari"
           title="whatsapp mutiara islam kendari"
-        />Whatsapp Kami
+        />Konsultasi Whatsapp
       </a>
     </section>
-    <!-- CTA Button End -->
+    <!-- Floating Button End -->
 
     <!-- Javascript Start -->
     <script src="/src/js/script.js"></script>

@@ -12,8 +12,8 @@ module.exports = {
         sixthColor: '#001938',
       },
       fontFamily: {
-        poppins: ['Poppins, sans-serif'],
-        playfair: ['Playfair Display, serif'],
+        sans: ['Dynapuff', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },

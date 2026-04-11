@@ -56,6 +56,11 @@
     />
     <link rel="shortcut icon" href="mik-favicon.ico" />
     <link href="dist/output.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
@@ -80,7 +85,7 @@
     <section
       class="pt-40 md:pt-60 pb-28 lg:pb-40 bg-[url('/src/img/hero-mobile.webp')] md:bg-[url('/src/img/hero.webp')] bg-no-repeat bg-cover grid place-content-center"
     >
-      <div class="container mx-auto relative overflow-hidden">
+      <div class="container mx-auto relative">
         <div class="text-center mx-6 md:mx-0">
           <h1
             class="w-full md:w-[70%] mx-auto font-bold text-4xl md:text-[54px] pb-2 mb-4 bg-gradient-to-r from-sky-700 to-thirdColor px-4 text-transparent bg-clip-text leading-[35px] md:leading-[63px]"
@@ -127,158 +132,163 @@
     </section>
     <!-- Hero End -->
 
-    <!-- Photo Start -->
+    <!-- Photo Slider Start -->
     <section
       class="pt-24 pb-24 md:pt-32 md:pb-32 px-6 lg:px-0 bg-secondaryColor m-4 rounded-xl shadow-sm"
     >
       <div class="container mx-auto text-center">
-        <h2
-          class="font-bold text-3xl md:text-5xl leading-[35px] bg-gradient-to-r from-sky-700 to-thirdColor text-transparent bg-clip-text"
-        >
-          Foto Kegiatan dan Keseruan Belajar<br />di RA Mutiara Islam Kendari
-        </h2>
-        <p
-          class="w-full md:w-[70%] mx-auto text-md text-gray-700 leading-6 my-8"
-        >
-          Setiap hari, Ananda akan belajar sambil bermain dengan teman sebaya
-          melalui kegiatan seru seperti kunjungan edukasi, bermain, dan
-          pembiasaan ibadah. Pulang, pasti ada cerita seru untuk Ayah dan Bunda!
-        </p>
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 mt-8">
-          <img
-            src="/src/img/g6.webp"
-            alt="kegiatan kunjungan ke kolam renang di taman kanak-kanak mutiara islam kendari"
-            title="kegiatan kunjungan ke kolam renang di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g7.webp"
-            alt="kunjungan ke dinas pemadam kebakaran kendari taman kanak-kanak mutiara islam kendari"
-            title="kunjungan ke dinas pemadam kebakaran kendari taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g8.webp"
-            alt="kegiatan memasak ikan bakar di taman kanak-kanak mutiara islam kendari"
-            title="kegiatan memasak ikan bakar di taman kanak-kanak mutiara islam kendari"
-            class="hidden lg:block rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="grid grid-cols-3 gap-4">
+                <article
+                  class="rounded-lg border border-gray-100 bg-white shadow-xs"
+                >
+                  <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&amp;fit=crop&amp;q=80&amp;w=1160"
+                    class="h-56 w-full object-cover"
+                  />
+
+                  <div class="p-4 sm:p-6">
+                    <a href="#">
+                      <h3 class="text-lg font-medium text-gray-900">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h3>
+                    </a>
+
+                    <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Recusandae dolores, possimus pariatur animi temporibus
+                      nesciunt praesentium dolore sed nulla ipsum eveniet
+                      corporis quidem, mollitia itaque minus soluta, voluptates
+                      neque explicabo tempora nisi culpa eius atque dignissimos.
+                      Molestias explicabo corporis voluptatem?
+                    </p>
+
+                    <a
+                      href="#"
+                      class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+                    >
+                      Find out more
+
+                      <span
+                        aria-hidden="true"
+                        class="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                      >
+                        →
+                      </span>
+                    </a>
+                  </div>
+                </article>
+                <article
+                  class="rounded-lg border border-gray-100 bg-white shadow-xs"
+                >
+                  <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&amp;fit=crop&amp;q=80&amp;w=1160"
+                    class="h-56 w-full object-cover"
+                  />
+
+                  <div class="p-4 sm:p-6">
+                    <a href="#">
+                      <h3 class="text-lg font-medium text-gray-900">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h3>
+                    </a>
+
+                    <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Recusandae dolores, possimus pariatur animi temporibus
+                      nesciunt praesentium dolore sed nulla ipsum eveniet
+                      corporis quidem, mollitia itaque minus soluta, voluptates
+                      neque explicabo tempora nisi culpa eius atque dignissimos.
+                      Molestias explicabo corporis voluptatem?
+                    </p>
+
+                    <a
+                      href="#"
+                      class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+                    >
+                      Find out more
+
+                      <span
+                        aria-hidden="true"
+                        class="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                      >
+                        →
+                      </span>
+                    </a>
+                  </div>
+                </article>
+                <article
+                  class="rounded-lg border border-gray-100 bg-white shadow-xs"
+                >
+                  <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&amp;fit=crop&amp;q=80&amp;w=1160"
+                    class="h-56 w-full object-cover"
+                  />
+
+                  <div class="p-4 sm:p-6">
+                    <a href="#">
+                      <h3 class="text-lg font-medium text-gray-900">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </h3>
+                    </a>
+
+                    <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Recusandae dolores, possimus pariatur animi temporibus
+                      nesciunt praesentium dolore sed nulla ipsum eveniet
+                      corporis quidem, mollitia itaque minus soluta, voluptates
+                      neque explicabo tempora nisi culpa eius atque dignissimos.
+                      Molestias explicabo corporis voluptatem?
+                    </p>
+
+                    <a
+                      href="#"
+                      class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+                    >
+                      Find out more
+
+                      <span
+                        aria-hidden="true"
+                        class="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                      >
+                        →
+                      </span>
+                    </a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="grid grid-cols-3 gap-10">
+                <img
+                  src="https://picsum.photos/300/300?4"
+                  class="rounded-lg object-cover w-full h-40"
+                />
+                <img
+                  src="https://picsum.photos/300/300?5"
+                  class="rounded-lg object-cover w-full h-40"
+                />
+                <img
+                  src="https://picsum.photos/300/300?6"
+                  class="rounded-lg object-cover w-full h-40"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination mt-6"></div>
         </div>
-        <div
-          class="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4 mt-2 lg:mt-4"
-        >
-          <img
-            src="/src/img/g18.webp"
-            alt="foto persiapan wisuda oleh taman kanak-kanak mutiara islam kendari"
-            title="kunjungan ke polisi air jembatan teluk kendari oleh taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g11.webp"
-            alt="berfoto di depan helikopter polisi air jembatan teluk kendari oleh taman kanak-kanak mutiara islam kendari"
-            title="berfoto di depan helikopter polisi air jembatan teluk kendari oleh taman kanak-kanak mutiara islam kendari"
-            class="hidden lg:block rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
-        </div>
-        <div
-          class="grid grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-4 mt-2 lg:mt-4"
-        >
-          <img
-            src="/src/img/g1.webp"
-            alt="suasana ruang kelas dan belajar di taman kanak-kanak mutiara islam kendari"
-            title="suasana ruang kelas dan belajar di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g5.webp"
-            alt="belajar mengaji iqro di taman kanak-kanak mutiara islam kendari"
-            title="belajar mengaji iqro di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g3.webp"
-            alt="fasilitas taman bermain di taman kanak-kanak mutiara islam kendari"
-            title="fasilitas taman bermain di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g4.webp"
-            alt="tarhib muharram m enyambut bulan ramadhan di taman kanak-kanak mutiara islam kendari"
-            title="tarhib muharram m enyambut bulan ramadhan di taman kanak-kanak mutiara islam kendari"
-            class="hidden lg:block rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g2.webp"
-            alt="bermain bersama teman di taman kanak-kanak mutiara islam kendari"
-            title="bermain bersama teman di taman kanak-kanak mutiara islam kendari"
-            class="hidden lg:block rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square"
-            loading="lazy"
-          />
-        </div>
-        <div
-          class="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4 mt-2 lg:mt-4"
-        >
-          <img
-            src="/src/img/g12.webp"
-            alt="pembiasaan shalat dhuha setiap pagi di taman kanak-kanak mutiara islam kendari"
-            title="pembiasaan shalat dhuha setiap pagi di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g13.webp"
-            alt="serunya belajar di taman kanak-kanak mutiara islam kendari"
-            title="serunya belajar di taman kanak-kanak mutiara islam kendari"
-            class="hidden lg:block rounded-lg hover:scale-105 duration-300 ease-in-out"
-            loading="lazy"
-          />
-        </div>
-        <div class="grid grid-cols-3 gap-2 lg:gap-4 mt-2 lg:mt-4">
-          <img
-            src="/src/img/g14.webp"
-            alt="suasana ruang kelas dan belajar di taman kanak-kanak mutiara islam kendari"
-            title="suasana ruang kelas dan belajar di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square object-cover"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g16.webp"
-            alt="fasilitas taman bermain di taman kanak-kanak mutiara islam kendari"
-            title="fasilitas taman bermain di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square object-cover"
-            loading="lazy"
-          />
-          <img
-            src="/src/img/g17.webp"
-            alt="tarhib muharram m enyambut bulan ramadhan di taman kanak-kanak mutiara islam kendari"
-            title="tarhib muharram m enyambut bulan ramadhan di taman kanak-kanak mutiara islam kendari"
-            class="rounded-lg hover:scale-105 duration-300 ease-in-out aspect-square object-cover"
-            loading="lazy"
-          />
-        </div>
-        <a
-          href="https://forms.gle/CF7gvZTw7oJXhzzK9"
-          target="_blank"
-          class="md:hidden hover:scale-105 duration-300 ease-in-out mx-auto mt-8 w-[75%] lg:w-[30%] flex text-sm md:text-base justify-center px-4 py-3 bg-thirdColor rounded-xl text-white hover:bg-primaryColor shadow-xl hover:shadow-2xl"
-        >
-          <img
-            src="./src/img/daftar.webp"
-            alt="daftar sekolah islam kendari"
-            class="mr-1 w-[23px] h-[23px]"
-          />Daftar Sekarang
-        </a>
       </div>
     </section>
-    <!-- Photo End -->
+    <!-- Photo Slider End -->
 
     <!-- Footer Start -->
     <footer>
@@ -297,24 +307,21 @@
     <!-- Footer End -->
 
     <!-- Javascript Start -->
-    <script src="/src/js/script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-      const slider = document.querySelector('.snap-x');
-      let index = 0;
-
-      setInterval(() => {
-        index++;
-        slider.scrollTo({
-          left: slider.clientWidth * index,
-          behavior: 'smooth',
-        });
-
-        if (index >= slider.children.length) {
-          index = 0;
-          slider.scrollTo({ left: 0 });
-        }
-      }, 3500);
+      new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
     </script>
     <!-- Javascript End -->
   </body>
