@@ -1471,6 +1471,21 @@
     </section>
     <!-- Floating Button End -->
 
+    <!-- Meta Pixel Event Tracking -->
+    <script>
+      document.querySelectorAll('a[href*="forms.gle"]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          fbq('track', 'Lead');
+        });
+      });
+      document.querySelectorAll('a[href*="whatsapp"]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          fbq('track', 'Contact');
+        });
+      });
+    </script>
+    <!-- End Meta Pixel Event Tracking -->
+
     <!-- Javascript Start -->
     <script src="/src/js/script.js"></script>
     <!-- Javascript End -->
