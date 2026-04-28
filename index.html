@@ -1478,11 +1478,13 @@
           fbq('track', 'Lead');
         });
       });
-      document.querySelectorAll('a[href*="whatsapp"]').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          fbq('track', 'Contact');
+      document
+        .querySelectorAll('a[href*="api.whatsapp.com"]')
+        .forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            fbq('track', 'Contact');
+          });
         });
-      });
     </script>
     <!-- End Meta Pixel Event Tracking -->
 
